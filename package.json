@@ -1,0 +1,15 @@
+{
+  "name": "package-registry",
+  "version": "0.0.0",
+  "description": "A private selfhosted artifact registry for code",
+  "scripts": {
+    "start": "npm run verdaccio --config config.yaml",
+    "verdaccio": "verdaccio"
+  },
+  "author": "Thomas Ott <thomas@ott.page>",
+  "license": "ISC",
+  "repository": "https://github.com/greenchapter/package-registry.git",
+  "dependencies": {
+    "verdaccio": "^4.1.0"
+  }
+}

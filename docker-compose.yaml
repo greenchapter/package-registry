@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  package-registry:
+    image: package-registry:1.0.0-alpha
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:4873"
+    container_name: package_registry
+    volumes:
+      - data:/home/node/verdaccio/storage
+
+volumes:
+  data:
