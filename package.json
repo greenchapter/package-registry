@@ -10,6 +10,6 @@
   "license": "ISC",
   "repository": "https://github.com/greenchapter/package-registry.git",
   "dependencies": {
-    "verdaccio": "^4.1.0"
+    "verdaccio": "^4.4.4"
   }
 }
